@@ -30,10 +30,15 @@ gsap.to('#cloud1', {
     },
     x: -200
 })
-
 gsap.to('#cloud2', {
     scrollTrigger: {
         scrub: 1
     },
     x: 300
+})
+gsap.to('#text', {
+    scrollTrigger: {
+        scrub: 1
+    },
+    y: -800
 })
