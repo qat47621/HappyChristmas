@@ -24,3 +24,16 @@ gsap.to('#tree', {
     },
     x: -500
 })
+gsap.to('#cloud1', {
+    scrollTrigger: {
+        scrub: 1
+    },
+    x: -200
+})
+
+gsap.to('#cloud2', {
+    scrollTrigger: {
+        scrub: 1
+    },
+    x: 300
+})
